@@ -7,7 +7,37 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <form action="#">
+            <h2> Feedback Form</h2>
+            <div>
+                <lable> Name</lable><br>
+                <input type="text" placeholder="name of user" id="name" >
+            </div>
+            <div> 
+            <label>user's webpage</label><br>
+            <input type="url" id="portfolio" placeholder="user's webpage" >
+            
+            </div>
+            <div>
+                <label>favourite colour</label><br>
+                <select id="favColor "> 
+                    <option value="1">red</option>
+                    <option value="2">black</option>
+                    <option value="3">green</option>
+                    <option value="4">yellow </option>
+                    <option value="5">white</option>
+                    <option value="6">brown</option>
+                </select>
+
+            
+            </div>
+            <div>
+                <input type="range" id="likeness" name="how much you like that color" min="0" max="100" >
+            </div>
+            <div> 
+                <input type="submit" name="submitbtn" id="btn">
+            </div>
+        </form>
     <script type="text/javascript" src="./script.js">
 </script>
 
