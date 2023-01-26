@@ -7,40 +7,26 @@
 </head>
 
 <body>
-    <form  method="post">
-            <h2> Feedback Form</h2>
-            <div>
-                <lable for="name">Name</lable><br>
-                <input type="text" name="name" id="name"  placeholder="name of user"   minlength="3" maxlength="50" required>
-            </div>
-            <div> 
-            <label for="portfolio">user's webpage</label><br>
-            <input type="url" id="portfolio" placeholder="user's webpage" required >
-            
-            </div>
-            <div>
-                <label for="favcolor">favourite colour</label><br>
-                <select id="favColor "> 
-                    <option value="1">red</option>
-                    <option value="2">black</option>
-                    <option value="3">green</option>
-                    <option value="4">yellow </option>
-                    <option value="5">white</option>
-                    <option value="6">brown</option>
-                </select>
+   	<h1>Feedback Form</h1>
+<form method="post">
+		<label for="name">Name</label>
+      <input type="text" name="name" minlength="3" maxlength="50" id="name" required>
+		 
+	
+	<label for="portfolio">User's webpage</label>
+      <input type="url" id="portfolio" required>
+	
+    <label for="favColor">Your Favourite Color</label>
+	<input type="color" id="favColor" required/>
 
-            
-            </div>
-            <div>
-				<lable for="likeness"> how much you like your favourite colour</lable> <br>
-                <input type="range" id="likeness" name="how much you like that color" min="0" max="100" >
-           </div>
-            <div> 
-                <input type="submit" name="submitbtn" id="btn">
-            </div>
-        </form>
-    <script type="text/javascript" src="./script.js">
-</script>
+	  
+   
+      <label for="likeness">Likeness</label>
+      <input type="range" id="likeness" min="1" max="100" required />
+   
+</form>
+   
+
 
 </body>
 
